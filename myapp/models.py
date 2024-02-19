@@ -7,3 +7,6 @@ class Book(models.Model):
 
     def __str__(self):
         return self.title
+    
+class Author(models.Model):
+    author = models.CharField(max_length=100)
