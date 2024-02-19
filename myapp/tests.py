@@ -4,7 +4,7 @@ from .models import Book
 
 class BookModelTest(TestCase):
     def test_book_creation(self):
-        book = Book.objects.create(title="Book 1", author="Giorgi")
+        book = Book.objects.create(title="Book ", author="Giorgi")
 
         self.assertEqual(str(book), "Book 1")
 
